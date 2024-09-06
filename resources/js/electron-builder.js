@@ -142,6 +142,7 @@ module.exports = {
     afterSign: 'build/notarize.js',
     win: {
         executableName: fileName,
+        sign: 'resources/app/sign-windows.js',
     },
     nsis: {
         artifactName: appName + '-${version}-setup.${ext}',
